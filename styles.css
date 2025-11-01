@@ -1,0 +1,25 @@
+body {
+    background-color: #F4F7F5;
+    margin:0px;
+}
+.logo{
+    max-width: 80px;
+    min-width: 60px;
+    padding: 15px;
+}
+.page-header{
+    background-color: rgb(237, 55, 55);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation a{
+    color:#08090a;
+    text-decoration: none;
+    padding: 15px;
+    font-size:larger;
+}
+.navigation {
+    display: flex;
+}
