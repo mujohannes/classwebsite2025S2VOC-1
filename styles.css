@@ -31,14 +31,14 @@ body {
 .nav-button {
     background-color: transparent;
     border-color: transparent;
-    display: none;
 }
+
 .banner {
-    background-color: #08090A;
-    color: #CCCCCC;
+    background-color: #5b0881;
+    color: #f5efef;
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
+    min-height: 40vh;
     justify-content: center;
     align-items: center;
 }
@@ -51,12 +51,12 @@ body {
     padding: 0.8em;
     min-width: 12em;
     border: 1px white solid;
-    border-radius: 4pt;
+    border-radius: 5pt;
 }
 .card-container {
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 10em;
 }
 .card img {
     max-width: 100%;
