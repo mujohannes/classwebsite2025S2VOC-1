@@ -3,6 +3,9 @@ body {
     color: #08090A;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 .logo {
     max-width: 100px;
@@ -38,20 +41,22 @@ body {
     color: #f5efef;
     display: flex;
     flex-direction: column;
-    min-height: 40vh;
+    min-height: 50vh;
     justify-content: center;
     align-items: center;
+    padding: 0.6em;
 }
 .banner h2 {
-    font-size: 4rem;
+    font-size: 6em;
     text-align: center;
 }
 .banner button {
     background-color: yellow;
     padding: 0.8em;
     min-width: 12em;
-    border: 1px white solid;
+    border:1px white solid;
     border-radius: 5pt;
+    font-size: 1.5rem;
 }
 .card-container {
     display: flex;
@@ -65,7 +70,8 @@ body {
     object-position: center;
 }
 .card-content {
-    padding: 1em;
+    padding: 3.2em;
+    text-align: center;
 }
 .card {
     border: 1px solid #a4a4a4;
@@ -83,4 +89,47 @@ body {
     margin-left: 10em;
     margin-right: 10em;
     margin-bottom: 3em;
+}
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    background: linear-gradient( to bottom right, purple , yellow);
+}
+.banner2 h2 {
+    font-size: 2.5em;
+}
+.banner2 h3 {
+    font-size: 1.5em;
+}
+.banner2 button {
+  font-size: 2rem;
+  background-color: aqua;  
+  border-radius: 5pt;
+}
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color:#b83684;
+    min-height: 20vh;
+    padding: 1.2em;
+}
+.footer-menu {
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.footer-menu a, .social a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
 }

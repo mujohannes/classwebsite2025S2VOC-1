@@ -21,4 +21,22 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .banner h2{
+        font-size: 2rem;
+    }
+    .banner {
+        min-height: 40vh;
+    }
+    .content {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .social {
+        min-width: 100%;
+        justify-content: end;
+        order: -1;
+    }
+    .footer {
+        min-height: 35vh;
+    }
 }
