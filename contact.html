@@ -20,53 +20,53 @@
 
 <body>
     <header class="page-header">
+        <button class="nav-button">
+            <img src="images/menu_48dp_0000F5_FILL0_wght400_GRAD0_opsz48.svg">
+        </button>
+        <a href="index.html">
+            <img class="logo" src="images/TipToe Soles_Logo_colour.png">
+        </a>
+        <nav class="navigation" id="categories">
+            <a href="lastestarrivals.html">Latest Arrivals</a>
+            <a href="women.html">Women</a>
+            <a href="men.html">Men</a>
+            <a href="sale.html">Sale</a>
+        </nav>
+        <form id="search">
+            <input type="search" placeholder="search for a product" id="keywords" name="keywords">
+            <button type="submit">Search</button>
+        </form>
+        <nav class="navigation" id="user">
+            <a href="account.html">
+                <!-- Account -->
+                <span class="material-symbols-outlined">
+                    person
+                </span>
+            </a>
+            <a href="wishlist.html">
+                <!-- Wishlist -->
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+            </a>
+            <a href="cart.html">
+                <!-- Car1   q```    t -->
+                <span class="material-symbols-outlined">
+                    shopping_basket
+                </span>
+            </a>
+        </nav>
     </header>
-    <button class="nav-button">
-        <img src="images/menu_48dp_0000F5_FILL0_wght400_GRAD0_opsz48.svg">
-    </button>
-    <a href="index.html">
-        <img class="logo" src="images/TipToe Soles_Logo_colour.png">
-    </a>
-    <nav class="navigation" id="categories">
-        <a href="lastestarrivals.html">Latest Arrivals</a>
-        <a href="women.html">Women</a>
-        <a href="men.html">Men</a>
-        <a href="sale.html">Sale</a>
-    </nav>
-    <form id="search">
-        <input type="search" placeholder="search for a product" id="keywords" name="keywords">
-        <button type="submit">Search</button>
-    </form>
-    <nav class="navigation" id="user">
-        <a href="account.html">
-            <!-- Account -->
-            <span class="material-symbols-outlined">
-                person
-            </span>
-        </a>
-        <a href="wishlist.html">
-            <!-- Wishlist -->
-            <span class="material-symbols-outlined">
-                favorite
-            </span>
-        </a>
-        <a href="cart.html">
-            <!-- Car1   q```    t -->
-            <span class="material-symbols-outlined">
-                shopping_basket
-            </span>
-        </a>
-    </nav>
-    </header>
+
     <!-- content -->
-    <main class="content">
+     <main class="content">
         <div class="card-container">
             <div class="card">
-                <div class="card-content">
+                <div class="card-content>" 
                     <h3>Our Address</h3>
                     <address>
                         322 Avondale Road
-                        Enfield NSW 2133  
+                        Enfield NSW 2133
                     </address>
                 </div>
             </div>
@@ -78,8 +78,25 @@
                     </p>
                 </div>
             </div>
+            <div class="card">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.9774879427882!2d151.08876987501617!3d-33.89023362016808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bb02d13b3615%3A0xd1dcf7ef2070a88b!2sEnfield%20Produce%3A%20Pet%20%26%20Garden%20Supplies!5e0!3m2!1sen!2sau!4v1764153376819!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="card">
+                <form id="contact" action="https://example.com/form" method="post">
+                    <label for="sendername">Your Name</label>
+                    <input id="sendername" name="sendername" type="text" placeholder="Alice White">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" name="email"placeholder="alicew@example.com">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" cols="30" rows="5" placeholder="Hey there"></textarea>
+                    <div class="buttons">
+                        <button type="reset">Cancel</button>
+                        <button type="submit">Submit Message</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </main>
+     </main>
     <footer class="footer">
         <nav class="footer-menu">
             <a href="about.html">About us</a>
@@ -95,8 +112,6 @@
             <a href="https//tiktok.com">TikTok</a>
         </nav>
     </footer>
-
-
 </body>
 
 </html>
