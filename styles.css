@@ -131,5 +131,29 @@ body {
 .social {
     display: flex;
     flex-direction: row;
-    gap: 0.5em;
+    gap: 1.5em;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5px;
+}
+#contact input, #contact textarea {
+    margin-bottom: 1em;
+    padding: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons > button {
+    min-width: 100px;
+}
+#map {
+    width: 100%;
+    aspect-ratio: 4/3;
 }
