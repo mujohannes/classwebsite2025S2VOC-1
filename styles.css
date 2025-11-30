@@ -76,6 +76,9 @@ nav a:hover {
     padding: 3.2em;
     text-align: center;
 }
+.card-content p {
+    text-align: justify;
+}
 .card {
     border: 1px solid #a4a4a4;
     border-radius: 8pt;
@@ -135,6 +138,9 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     gap: 1.5em;
+}
+.social a {
+    font-size: 1.6em;
 }
 #contact{
     display: flex;
