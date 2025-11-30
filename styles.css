@@ -31,6 +31,9 @@ body {
 .navigation {
     display: flex;
 }
+nav a:hover {
+    font-weight: bold;
+}
 .nav-button {
     background-color: transparent;
     border-color: transparent;
@@ -156,4 +159,17 @@ body {
 #map {
     width: 100%;
     aspect-ratio: 4/3;
+}
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    gap: 10px;
+}
+.breadcrumbs a {
+     text-decoration: none;
+     color:#08090A;
+}
+.breadcrumbs .active {
+    font-weight: bold;
 }
