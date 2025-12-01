@@ -64,7 +64,9 @@ nav a:hover {
 .card-container {
     display: flex;
     flex-direction: row;
-    gap: 10em;
+    gap: 1em;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card img {
     max-width: 100%;
@@ -83,12 +85,16 @@ nav a:hover {
     border: 1px solid #a4a4a4;
     border-radius: 8pt;
     overflow: hidden;
+    flex: 1;
 }
 .card button {
     min-width: 100%;
     background-color: rgb(140, 140, 218);
     padding: 0.5em;
     border: 1px solid #666666;
+}
+.form {
+    min-width: 100%;
 }
 .content {
     margin-top: 3em;
